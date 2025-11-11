@@ -6,7 +6,7 @@ float get_area_of_square(float length)
 	return length * length;
 }
 
-int pa06_02(void)
+int main(void)
 {
 	float length;
 	printf("한 변의 길이? ");

@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-void main() {
-	double x[3];
-	double* q = x;
+int main() {
+    double x[3];
+    double* q = x;
 
-	int i;
-	for (i = 0; i < 3; i++)
-		printf("x[%d]狼 林家: %X\n", i, q + i);
+    int i;
+    for (i = 0; i < 3; i++)
+        printf("x[%d]狼 林家: %p\n", i, (void*)(q + i));
 }

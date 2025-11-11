@@ -10,7 +10,7 @@ int get_perimeter(int width, int length)
 	return circumference;
 }
 
-int pa06_01(void)
+int main(void)
 {
 	int width, length;
 

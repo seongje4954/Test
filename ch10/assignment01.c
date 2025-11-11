@@ -6,7 +6,7 @@ struct login {
 	char pw[21];
 };
 
-void pa10_01() {
+void main() {
 	struct login data;
 	int i;
 	printf("ID? ");

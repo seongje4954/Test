@@ -6,7 +6,7 @@ int equidistant(int term, int common_difference) {
 }
 
 
-int pa07_01(void) {
+int main(void) {
 	int i, term, common_difference;
 	int arr[10];
 
